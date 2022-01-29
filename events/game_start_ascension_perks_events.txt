@@ -1,0 +1,35 @@
+namespace = game_start_ascension_perks
+
+country_event = {
+	id = game_start_ascension_perks.1
+	hide_window = yes
+	is_triggered_only = yes
+    fire_only_once = yes
+	
+	trigger = {
+        is_country_type = default
+        is_ai = no
+	}
+	
+	#immediate = {
+	#	add_resource = { unity = @start_unity }
+	#}
+    #immediate = {
+    #    modifier = {
+    #        ascension_perks_add = 4
+    #    }
+    #}
+    #Invalid scripted effect
+
+    
+    immediate = {
+        add_modifier = { 
+            modifier = "game_start_ascension_perks_add"
+            days = -1 
+        }
+	}
+    # modifier = {
+    #    ascension_perks_add = 9
+    #}
+}
+

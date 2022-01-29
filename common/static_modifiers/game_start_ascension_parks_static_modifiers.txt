@@ -1,0 +1,3 @@
+game_start_ascension_perks_add = {
+	ascension_perks_add = @start_ascension_perks
+}

@@ -1,0 +1,5 @@
+on_game_start_country = {
+	events = {
+		game_start_ascension_perks.1
+    }
+}
